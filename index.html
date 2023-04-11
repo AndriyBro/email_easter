@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Привітання з Великоднем</title>
+  <style>
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 50px;
+      background: linear-gradient(45deg, #ff4a4a, #ff8c00, #ffd700, #00ff00, #00ffff, #0000ff, #ff00ff);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    h1 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      animation: fade-in 1s ease-in-out;
+    }
+
+    p {
+      animation: slide-up 1s ease-in-out;
+      font-weight: normal;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 30px;
+      margin-top: 30px;
+      background: #fff;
+      color   : #ff4a4a;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    animation: slide-up 1s ease-in-out;
+  }
+
+  .btn:hover {
+    background-color: #ff4a4a;
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 500px) {
+    h1 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>З Великоднем!</h1>
+    <p>Христос воскрес, радійте і веселіться! Нехай Ваше життя наповниться світлом та радістю у цей особливий час.</p>
+    <a href="#" class="btn">Дізнатися більше</a>
+  </div>
+</body>
+</html>
